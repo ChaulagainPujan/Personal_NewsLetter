@@ -34,10 +34,10 @@ app.post("/",function(req,res){
   var jsonData=JSON.stringify(data);
 
   var options={
-    url:"https://us7.api.mailchimp.com/3.0/lists/a1a2371243",
+    url:"https://us7.api.mailchimp.com/3.0/lists/#########",
     method:"POST",
     headers:{
-      "Authorization":"pujanclgn e2af0f8b4c78799d97ba6c26f0762796-us7"
+      "Authorization":"pujanclgn #########################"
     },
     body:jsonData
   };
@@ -82,7 +82,3 @@ app.listen(process.env.PORT || 3000,function()
 
 
 
-
-
-// e2af0f8b4c78799d97ba6c26f0762796-us7
-// a1a2371243
